@@ -1,0 +1,15 @@
+package com.abclibrary.library_mgmt_sys;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.vaadin.flow.theme.Theme;
+import com.vaadin.flow.component.page.AppShellConfigurator;
+
+@SpringBootApplication
+@Theme("my-theme")
+public class LibraryMgmtSysApplication implements AppShellConfigurator {
+
+    public static void main(String[] args) {
+        SpringApplication.run(LibraryMgmtSysApplication.class, args);
+    }
+}

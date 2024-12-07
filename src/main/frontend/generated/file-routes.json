@@ -1,0 +1,20 @@
+[
+  {
+    "route": "",
+    "flowLayout": false,
+    "params": {},
+    "title": "Home"
+  },
+  {
+    "route": "library",
+    "params": {},
+    "children": [
+      {
+        "route": "",
+        "flowLayout": false,
+        "params": {},
+        "title": "Books"
+      }
+    ]
+  }
+]
